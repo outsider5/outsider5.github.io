@@ -139,3 +139,91 @@ footer p {
     color: #cccccc;
     font-size: 0.9rem;
 }
+/* 文章图片的样式 */
+.post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.post-image:hover {
+    transform: scale(1.05);
+}
+
+.post {
+    background-color: #23233b;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.post:hover {
+    transform: translateY(-10px);
+}
+
+.post h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.post .read-more {
+    display: inline-block;
+    color: #6a0dad;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.post .read-more:hover {
+    color: #c13584;
+}
+/* 新拟态按钮 */
+.social-button {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a2e;
+    border-radius: 50%;
+    box-shadow: 8px 8px 16px #0f0f1f, -8px -8px 16px #2e2e46;
+    transition: all 0.3s ease;
+}
+
+.social-button:hover {
+    box-shadow: 4px 4px 8px #0f0f1f, -4px -4px 8px #2e2e46;
+    transform: translateY(-5px);
+}
+
+.social-button img {
+    width: 32px;
+    height: 32px;
+    filter: invert(1);
+}
+.social-button {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e5ec;
+    border-radius: 50%;
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.2), -8px -8px 16px rgba(255,255,255,0.5);
+    transition: all 0.3s ease;
+}
+
+.social-button:hover {
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.3), -4px -4px 8px rgba(255,255,255,0.3);
+    transform: scale(1.1);
+}
+
+.social-button:active {
+    box-shadow: inset 4px 4px 8px rgba(0,0,0,0.3), inset -4px -4px 8px rgba(255,255,255,0.3);
+}
